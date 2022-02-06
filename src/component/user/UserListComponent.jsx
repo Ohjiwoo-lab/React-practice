@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-class UserListComonent extends Component{
+class UserListComponent extends Component{
 
     constructor(props) {
         super(props);
@@ -90,4 +90,4 @@ class UserListComonent extends Component{
     }
 }
 
-export default UserListComonent;
+export default UserListComponent;
