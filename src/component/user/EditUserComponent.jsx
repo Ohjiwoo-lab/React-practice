@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import ApiService from "../../ApiService";
 
 class EditUserComponent extends Component{
 
@@ -20,7 +21,7 @@ class EditUserComponent extends Component{
     }
 
     loadUser = () => {
-        AiService.fetchUserByID(window.localStorage.getItem("userID"))
+        ApiService.fetchUserByID(window.localStorage.getItem("userID"))
             .then( res => {
                 let user = res.data;
                 this.setState({
@@ -108,4 +109,4 @@ class EditUserComponent extends Component{
     }
 }
 
-export defalut EditUserComponent;
+export default EditUserComponent;

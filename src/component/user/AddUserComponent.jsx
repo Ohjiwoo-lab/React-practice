@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import ApiService from "../../ApiService";
 
 class AddUserComponent extends Component{
 
@@ -95,4 +96,4 @@ class AddUserComponent extends Component{
     }
 }
 
-export defalut AddUserComponent;
+export default AddUserComponent;
